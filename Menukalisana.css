@@ -1,12 +1,3 @@
-.card-background {
-  background-image: url("https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  color: white;
-  position: relative;
-  border: 1px solid #fff;
-}
 .card-link {
     text-decoration: none;
     color: inherit;
