@@ -103,12 +103,4 @@
       .credit-link:hover .credit-tooltip {
         display: block;
       }
-      
-      
-      @media (max-width: 768px) {
-        .site-credit {
-          font-size: 0.8em;
-          opacity: 0.7;
-        }
-      }
-      
+           
