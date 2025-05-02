@@ -6,7 +6,7 @@
   
   .card:hover {
     background-color: #1f1f1f;
-    border-color: gold;
+    border-color: #ffd700;
     transition: 0.3s ease-in-out;
   }
   
