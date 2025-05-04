@@ -6,6 +6,7 @@
   <title>Royal Tulip Canaan Nairobi</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://nugutimoranga.github.io/RTCN-/Menukalisana.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
 </head>
 <body class="custom-bg text-light">
     <nav class="navbar navbar-expand-lg navbar-dark custom-navbar border-bottom border-light">
@@ -20,7 +21,7 @@
     <div class="row g-3">
 
       <!-- In-room Dining -->
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <a href="https://menu.rtcanaannairobi.com/pdfs/in-room dining.pdf" class="card-link">
             <div class="card text-light h-100 border-1 position-relative">
                 <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="In-room Dining">
@@ -33,7 +34,7 @@
       </div>
 
       <!-- Internet -->
-            <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
               <a href="https://menu.rtcanaannairobi.com/pdfs/internet.pdf" class="card-link">
                   <div class="card text-light h-100 border-1 position-relative">
                       <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="Internet">
@@ -46,7 +47,7 @@
             </div>
         
       <!-- Health Club -->
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
         <a href="https://menu.rtcanaannairobi.com/pdfs/health club.pdf" class="card-link">
             <div class="card text-light h-100 border-1 position-relative">
                 <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="Health club">
@@ -59,7 +60,7 @@
       </div>
 
             <!-- Hotel Services -->
-      <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
         <a href="https://menu.rtcanaannairobi.com/pdfs/hotel services.pdf" class="card-link">
           <div class="card text-white h-100 border-1 position-relative">
             <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="Hotel Services">
@@ -73,7 +74,7 @@
       
 
       <!-- Transport -->
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
         <a href="https://menu.rtcanaannairobi.com/pdfs/transport.pdf" class="card-link">
           <div class="card text-light h-100 border-1 position-relative">
             <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="Transport">
@@ -87,7 +88,7 @@
      
 
       <!-- Policies & Safety -->
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
         <a href="https://menu.rtcanaannairobi.com/pdfs/policies and safety.pdf" class="card-link">
             <div class="card text-light h-100 border-1 position-relative">
                 <img src="https://nugutimoranga.github.io/RTCN-/Royal-Tulip-Key-pattern_0.jpg" class="card-img h-100" alt="policies & safety">
@@ -195,7 +196,11 @@
     link.addEventListener("mouseover", () => tooltip.style.display = "block");
     link.addEventListener("mouseout", () => tooltip.style.display = "none");
   </script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
